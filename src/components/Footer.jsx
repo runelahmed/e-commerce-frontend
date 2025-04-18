@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
         <div>
           <p className="text-xl font-medium mb-5">COMPANY</p>
-          <ul class="flex flex-col gap-1 text-gray-600">
+          <ul className="flex flex-col gap-1 text-gray-600">
             <li>Home</li>
             <li>About us</li>
             <li>Delivery</li>
@@ -25,11 +25,11 @@ const Footer = () => {
         </div>
         <div>
           <div>
-            <p class="text-xl font-medium mb-5">GET IN TOUCH</p>
-            <ul class="flex flex-col gap-1 text-gray-600">
+            <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
+            <ul className="flex flex-col gap-1 text-gray-600">
               <li>+1-000-000-0000</li>
               <li>demo@gmail.com</li>
-              <li class="cursor-pointer">Instagram</li>
+              <li className="cursor-pointer">Instagram</li>
             </ul>
           </div>
         </div>
