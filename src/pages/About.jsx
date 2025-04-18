@@ -65,7 +65,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div>
+      <div className='text-center'>
         <NewsLetterBox/>
       </div>
     </div>
