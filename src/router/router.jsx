@@ -8,8 +8,8 @@ import Product from '../pages/Product'
 import Cart from '../pages/Cart'
 import Login from '../pages/Login'
 import PlaceOrder from '../pages/PlaceOrder'
-import Order from '../pages/Order'
 import MainLayout from '../layouts/MainLayout'
+import Orders from '../pages/Orders'
 
 
 
@@ -51,8 +51,8 @@ const router = createBrowserRouter([
         element: <PlaceOrder />,
       },
       {
-        path: '/order',
-        element: <Order />,
+        path: '/orders',
+        element: <Orders />,
       },
     ],
   },
